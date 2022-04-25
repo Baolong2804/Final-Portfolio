@@ -1,0 +1,318 @@
+{
+  "id": "4a3b7a0c-8156-460b-b6e9-690d02208d3d",
+  "version": "2.0",
+  "name": "portfolio",
+  "url": "https://www.ebay.com/",
+  "tests": [{
+    "id": "231c41fb-12c7-40b3-b36e-330453c6f6b4",
+    "name": "proceed to payment",
+    "commands": [{
+      "id": "3290562b-2be7-406d-a8b5-32494e94f11b",
+      "comment": "",
+      "command": "open",
+      "target": "/itm/284542209630?hash=item4240098e5e:g:UkUAAOSwBnFiJkxq",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cbe065f-e18c-4479-b32d-6ee15ba39d6d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "768x964",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a1ce1da-1acb-4043-be2e-1e912765d3d6",
+      "comment": "",
+      "command": "click",
+      "target": "id=msku-sel-1",
+      "targets": [
+        ["id=msku-sel-1", "id"],
+        ["name=US Shoe Size", "name"],
+        ["css=#msku-sel-1", "css:finder"],
+        ["xpath=//select[@id='msku-sel-1']", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/form/div/div[3]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2593b6d6-b880-4572-b4db-8f94e08a2497",
+      "comment": "",
+      "command": "click",
+      "target": "id=msku-sel-1",
+      "targets": [
+        ["id=msku-sel-1", "id"],
+        ["name=US Shoe Size", "name"],
+        ["css=#msku-sel-1", "css:finder"],
+        ["xpath=//select[@id='msku-sel-1']", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/form/div/div[3]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1b6b2cf-2926-4590-94e2-5e98662ad0b6",
+      "comment": "",
+      "command": "select",
+      "target": "id=msku-sel-1",
+      "targets": [],
+      "value": "label=8.5"
+    }, {
+      "id": "2022b642-221f-4ff7-a895-ac1785e2e821",
+      "comment": "",
+      "command": "click",
+      "target": "id=binBtn_btn",
+      "targets": [
+        ["id=binBtn_btn", "id"],
+        ["css=#binBtn_btn", "css:finder"],
+        ["xpath=//input[@id='binBtn_btn']", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/form/div[2]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfa247c5-f2ba-4bee-9f87-25f06d0c72dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=sbin-gxo-btn",
+      "targets": [
+        ["id=sbin-gxo-btn", "id"],
+        ["css=#sbin-gxo-btn", "css:finder"],
+        ["xpath=//button[@id='sbin-gxo-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='sbin-buttons']/button[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Check out as guest')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9f841aa-88cf-4996-a92d-a0744d23cfc6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.page-title",
+      "targets": [
+        ["css=.page-title", "css:finder"],
+        ["xpath=//div[@id='root']/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f37a5d1e-d4b0-4772-bbe3-10cc5b89c96e",
+    "name": "remove item",
+    "commands": [{
+      "id": "fcae0e53-11c8-4044-8621-5b36088d3340",
+      "comment": "",
+      "command": "open",
+      "target": "https://cart.ebay.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fdf1028-12f5-4f8e-aff3-327a600a5e67",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "768x964",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba727102-af4d-4306-bbde-e23fc6032249",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .text-display-with-info > .fake-link",
+      "targets": [
+        ["css=li:nth-child(1) .text-display-with-info > .fake-link", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/div/div[2]/div[2]/div/div/ul/li/div/div/div/div[2]/span[2]/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "048e85f8-a555-4570-ac51-dc60a6fa5034",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) .text-display-with-info > .fake-link",
+      "targets": [
+        ["css=li:nth-child(1) .text-display-with-info > .fake-link", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/div/div[3]/div[2]/div/div/ul/li/div/div/div/div[2]/span[2]/button", "xpath:idRelative"],
+        ["xpath=//span[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Remove')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c4ab1b5-b61e-400f-9424-de44a9f324b6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.page-notice--confirmation > .page-notice__main",
+      "targets": [
+        ["css=.page-notice--confirmation > .page-notice__main", "css:finder"],
+        ["xpath=//div[@id='page-alerts']/section/div[2]", "xpath:idRelative"],
+        ["xpath=//section/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6aa602f1-808a-42f5-9ca0-51641c8c1fe9",
+    "name": "Add item",
+    "commands": [{
+      "id": "b9dec102-0e4c-4497-8dfc-f18490ec1b44",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.ebay.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2e7ffa21-e0c6-4ae1-9dc6-1b5fabfca97f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1504x964",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "363fc2e9-120c-478c-8a29-ebb01e4b5a0b",
+      "comment": "",
+      "command": "click",
+      "target": "id=gh-ac",
+      "targets": [
+        ["id=gh-ac", "id"],
+        ["name=_nkw", "name"],
+        ["css=#gh-ac", "css:finder"],
+        ["xpath=//input[@id='gh-ac']", "xpath:attributes"],
+        ["xpath=//div[@id='gh-ac-box2']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1b37871-169a-4393-b303-3baafa0c4f2b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ui-id-7 .ghAC_hl",
+      "targets": [
+        ["css=#ui-id-7 .ghAC_hl", "css:finder"],
+        ["xpath=//a[@id='ui-id-7']/span/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'sneakers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4bf471b-b5b1-428e-b9cc-932b209f1d4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.s-item:nth-child(3) .s-item__image-img",
+      "targets": [
+        ["css=.s-item:nth-child(3) .s-item__image-img", "css:finder"],
+        ["xpath=//img[@alt=\"Reebok Endless Road 3 Men's Running Shoes\"]", "xpath:img"],
+        ["xpath=//div[@id='srp-river-results']/ul/li/div/div/div/a/div/img", "xpath:idRelative"],
+        ["xpath=//ul/li/div/div/div/a/div/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6130",
+      "windowTimeout": 2000
+    }, {
+      "id": "57da6b0a-1d47-4854-a701-61dcf61b835f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6130}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9d1f42f-8cd8-4b90-bc33-7894f2b0fdd3",
+      "comment": "",
+      "command": "click",
+      "target": "id=atcRedesignId_btn",
+      "targets": [
+        ["id=atcRedesignId_btn", "id"],
+        ["linkText=Add to cart", "linkText"],
+        ["css=#atcRedesignId_btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Add to cart')]", "xpath:link"],
+        ["xpath=//a[@id='atcRedesignId_btn']", "xpath:attributes"],
+        ["xpath=//div[@id='atc-area']/div/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[30]", "xpath:href"],
+        ["xpath=//div[2]/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74c38b3a-1126-41be-bd54-40b08938b5dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=msku-sel-1",
+      "targets": [
+        ["id=msku-sel-1", "id"],
+        ["name=Color", "name"],
+        ["css=#msku-sel-1", "css:finder"],
+        ["xpath=//select[@id='msku-sel-1']", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/form/div/div[3]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65a43ac9-5fda-46f8-bb02-1f9efcef3cff",
+      "comment": "",
+      "command": "select",
+      "target": "id=msku-sel-1",
+      "targets": [],
+      "value": "label=Cold Grey 2 / Cold Grey / Core..."
+    }, {
+      "id": "dcdf06c7-ebfd-4ac3-ab2a-216a117663ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vi-msku-cntr:nth-child(6) > .sh-col",
+      "targets": [
+        ["css=.vi-msku-cntr:nth-child(6) > .sh-col", "css:finder"],
+        ["xpath=(//div[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/form/div/div[5]/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div[5]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcabf0ac-cad5-4876-9144-8eefd88dbebf",
+      "comment": "",
+      "command": "click",
+      "target": "id=msku-sel-2",
+      "targets": [
+        ["id=msku-sel-2", "id"],
+        ["name=Size", "name"],
+        ["css=#msku-sel-2", "css:finder"],
+        ["xpath=//select[@id='msku-sel-2']", "xpath:attributes"],
+        ["xpath=//div[@id='mainContent']/form/div/div[5]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bdb0fbf-eb56-4a1e-9136-c03662d75581",
+      "comment": "",
+      "command": "select",
+      "target": "id=msku-sel-2",
+      "targets": [],
+      "value": "label=12.5"
+    }, {
+      "id": "ca3b4e1d-7b61-444e-b884-fb8e8db5aa36",
+      "comment": "",
+      "command": "click",
+      "target": "id=atcRedesignId_btn",
+      "targets": [
+        ["id=atcRedesignId_btn", "id"],
+        ["linkText=Add to cart", "linkText"],
+        ["css=#atcRedesignId_btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Add to cart')]", "xpath:link"],
+        ["xpath=//a[@id='atcRedesignId_btn']", "xpath:attributes"],
+        ["xpath=//div[@id='atc-area']/div/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[30]", "xpath:href"],
+        ["xpath=//div[2]/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ea9ef7ee-72d2-4397-aa99-f5df855c0b8e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["231c41fb-12c7-40b3-b36e-330453c6f6b4"]
+  }],
+  "urls": ["https://www.ebay.com/", "https://cart.ebay.com/"],
+  "plugins": []
+}
